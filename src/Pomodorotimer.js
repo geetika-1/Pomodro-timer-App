@@ -4,7 +4,7 @@ import { signOut } from 'firebase/auth'
 import { auth } from './firebase'
 
 const Pomodorotimer = () => {
-  const [timer, setTimer] = useState(1500); // 25 minutes in seconds
+  const [timer, setTimer] = useState(1500); 
   const [isActive, setIsActive] = useState(false);
 
   
@@ -42,11 +42,13 @@ const Pomodorotimer = () => {
 
   return (
     
-    <Box textAlign="center" mt={8}>
-      <span onClick={() => signOut(auth)}>Sign Out</span>
+    <Box mt={8}>
+      <Center>
+      <Box onClick={() => signOut(auth)}>Sign Out</Box>
         <Text fontSize="3xl" fontWeight="bold" mb={4}>
         Pomodoro Timer App
       </Text>
+      </Center>
         <Flex align="center" justify="center">
       
       <Box w="200px" 
