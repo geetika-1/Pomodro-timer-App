@@ -1,5 +1,5 @@
 # Project Link
-[https://exquisite-zuccutto-63cc2d.netlify.app/login](https://exquisite-zuccutto-63cc2d.netlify.app/login)
+[https://exquisite-zuccutto-63cc2d.netlify.app/](https://exquisite-zuccutto-63cc2d.netlify.app/)
 
 # Getting Started with Create React App
 
